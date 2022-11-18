@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         int bill = 800;
-        int addMoney = 1200;
+        int addMoney = 1500;
 
         if (addMoney > 1000) {
 
@@ -13,8 +13,7 @@ public class Main {
             System.out.println(finishBill + " рублей");
             System.out.println(bonus + " рублей бонус");
 
-        }
-        if (addMoney < 1000) {
+        } else {
 
             int finishBill = bill + addMoney;
 
